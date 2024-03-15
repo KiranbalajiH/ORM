@@ -24,15 +24,23 @@ Execute Django admin and create details for 10 books
 
 ## PROGRAM
 from django.db import models
+
 from django.contrib import admin
-class Book(models.Model):
+
+class Book(models.Model
+
     SNO=models.IntegerField()
+    
     NAME=models.CharField(max_length=100)
+    
     PRICE=models.IntegerField()
+    
     AUTHOR=models.CharField(max_length=100)
+    
     
  
 class BookAdmin(admin.ModelAdmin):
+
     list_display=('SNO','NAME','PRICE','AUTHOR')
 
 
