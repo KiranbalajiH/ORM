@@ -23,6 +23,8 @@ Enter the code for admin.py and models.py
 ### STEP 4:
 Execute Django admin and create details for 10 books
 
+
+
 ## PROGRAM
 from django.db import models
 
@@ -43,6 +45,9 @@ class Book(models.Model
 class BookAdmin(admin.ModelAdmin):
 
     list_display=('SNO','NAME','PRICE','AUTHOR')
+
+
+
 
 
 
