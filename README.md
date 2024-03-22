@@ -49,6 +49,17 @@ class BookAdmin(admin.ModelAdmin):
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 ## OUTPUT
 ![web exp2](https://github.com/KiranbalajiH/ORM/assets/149135475/e2e8e5ea-f2da-4892-86d2-5cfa3ac5e1b0)
 
